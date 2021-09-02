@@ -15,6 +15,7 @@ WORKDIR /root/cloudreve
 ADD cloudreve ./cloudreve
 # ADD cloudreve.db ./cloudreve.db
 ADD run.sh ./run.sh
+ADD conf.ini /root/cloudreve/conf.ini
 
 RUN chmod +x ./cloudreve
 RUN chmod +x ./run.sh
