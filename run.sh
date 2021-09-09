@@ -13,6 +13,7 @@ Debug = false
 #Password =
 #DB = 0
 [Database]
+#测试aws的数据库成功，阿里云的数据库不行
 Type = $DB_Type
 Host = $DB_Host
 Port = $DB_Port
