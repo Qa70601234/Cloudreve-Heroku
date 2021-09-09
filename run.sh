@@ -8,10 +8,10 @@ Listen = :${PORT}
 #Listen = :8080
 ; 是否开启 Debug
 Debug = false
-[Redis]
-Server = 127.0.0.1:6379
-Password =
-DB = 0
+#[Redis]
+#Server = 127.0.0.1:6379
+#Password =
+#DB = 0
 [Database]
 Type = $DB_Type
 Host = $DB_Host
